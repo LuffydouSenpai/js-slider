@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#slider {
+    position: relative;
+}
+
+#prev,
+#next {
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    top: 50%;
+}
+
+#prev:hover,
+#next:hover {
+    cursor: pointer;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
